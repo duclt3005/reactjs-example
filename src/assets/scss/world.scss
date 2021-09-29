@@ -1,0 +1,34 @@
+.world{
+    margin: 0 auto;
+    padding: 15px;
+
+    background-color: #c3e5f3;
+    h1{
+        text-align: center;
+    }
+
+    &_city{
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+.city{
+    display: flex;
+
+    margin-bottom: 10px;
+    &_name{
+        width: 20%;
+    }
+    &_bar{
+        width: 70%;
+        &-value{
+            height: 30px;
+
+            background-color: rgb(255, 225, 127);
+            border-radius: 5px;
+        }
+    }
+    &_number{
+        width: 10%;
+    }
+}

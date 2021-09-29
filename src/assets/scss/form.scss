@@ -1,0 +1,16 @@
+@import "~bootstrap/scss/bootstrap";
+
+.controlled {
+    margin: 10px auto;
+    padding: 20px;
+
+    border-radius: 5px;
+    border: 1px solid #eee;
+    box-shadow: 0 -2.7px 62.6px rgba(0, 0, 0, 0.047), 0 -0.2px 69.1px rgba(0, 0, 0, 0.055),
+        0 7.7px 67.8px rgba(0, 0, 0, 0.057), 0 22.1px 64.3px rgba(0, 0, 0, 0.057), 0 46.4px 62.5px rgba(0, 0, 0, 0.058),
+        0 100px 80px rgba(0, 0, 0, 0.07);
+
+    .input-group-text{
+        width: 120px;
+    }
+}
